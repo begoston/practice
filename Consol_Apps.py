@@ -22,4 +22,11 @@ def TwoNumSys():
     else:
         print("Csak 0 és 255 között.")
 
-TwoNumSys()
+
+#Generate html table tags
+def HtmlTabGen():
+    tr = int(input("Row number:"))
+    td = int(input("Col number:"))
+
+    p = tr * ("<tr> " + td * "<td></td>" + " </tr>\n")
+    print("<table>\n" + p + "</table>")
