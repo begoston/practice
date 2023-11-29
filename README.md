@@ -1,2 +1,2 @@
 # practice
-Litle python consol applications
+Litle python consol codes
